@@ -16,9 +16,22 @@
     <audio id="divAudio">
      <source src="birthday.mp3" type="audio/mp3">
     </audio>
+    
+  
+<script>
+  var vAudio = document.getElementById("divAudio");
+  var hasInit = false;
+  function playMusic()
+  {
+     if(!hasInit)
+     {
+         hasInit = true;
+         vAudio.play();
+     }
+  }  
+  </script>
   
   <div class="container">
-    <div onmouseover="playMusic()"> 
     <div class="one">
       <h1 class="one">
         <span data-node-name="greeting">Hey</span>
@@ -130,21 +143,11 @@
       <p id="replay" data-node-name="replayText">Or click, if you want to watch it again.</p>
       <p class="last-smile" data-node-name="outroSmiley">:)</p>
     </div>
+    <div onmouseover="playMusic()"> 
   </div>
 </body>
 
-<script>
-  var vAudio = document.getElementById("divAudio");
-  var hasInit = false;
-  function playMusic()
-  {
-     if(!hasInit)
-     {
-         hasInit = true;
-         vAudio.play();
-     }
-  }
-</script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 <script type="application/javascript" src="script/main.js"></script>
 
