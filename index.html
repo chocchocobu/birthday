@@ -14,10 +14,11 @@
 <body>
   
     <audio id="divAudio">
-     <source src="birthday.mp3" type="audio/mp3">
+    <source src="birthday.mp3" type="audio/mp3">
     </audio>
     
 <script>
+  
   var vAudio = document.getElementById("divAudio");
   var hasInit = false;
   function playMusic()
@@ -28,10 +29,9 @@
          vAudio.play();
      }
   }  
-  </script>
+</script>
   
   <div class="container">
-   <div onmouseover="playMusic()"> 
     <div class="one">
       <h1 class="one">
         <span data-node-name="greeting">Hey</span>
