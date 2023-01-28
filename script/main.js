@@ -24,6 +24,9 @@ const fetchData = () => {
     });
 };
 
+ var myAudio = document.getElementById("audioelement");
+        myAudio.play();
+
 // Animation Timeline
 const animationTimeline = () => {
   // Spit chars that needs to be animated individually
