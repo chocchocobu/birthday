@@ -1,1 +1,23 @@
-
+{
+  "greeting": "Hey",
+  "name": "Big Brother",
+  "greetingText": "I hope you're doing really great",
+  "wishText": "I wish you all the wishes you wanted ;)",
+  "imagePath": "img/lydia2.png",
+  "text1": "Oh it's your birthday!!! :D",
+  "textInChatBox": "Happiest birthday to my big brother i wish blah blah blah...",
+  "sendButtonLabel": "Send",
+  "text2": "I was going to just send you a text.",
+  "text3": "But then I realized that i am a baby engineer.",
+  "text4": "And, I wanted to do something",
+  "text4Adjective": "Awesome",
+  "text5Entry": "Because,",
+  "text5Content": "You are Awesome",
+  "smiley": ":)",
+  "bigTextPart1": "S",
+  "bigTextPart2": "O",
+  "wishHeading": "Happy Birthday to my big brother!",
+  "outroText": "Okay, now come back and tell me if you liked it.",
+  "replayText": "Or click, if you want to watch it again.",
+  "outroSmiley": ":)"
+}
